@@ -37,6 +37,10 @@ aside{
     height: 100px ;
 }
 
+
+
+
+
         /* EFFETTUA UPGRADE */
 
 
@@ -44,6 +48,17 @@ aside{
     background-color: rgb(114, 17, 10);
     height: 10vh;
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button-upgrade{
+    background-color: rgb(223, 215, 203);
+    padding: 15px 30px;
+    width: 15%;
+    height: 5%;
+    margin-right: 10px;
 }
 
         /* MAIN */
@@ -56,6 +71,37 @@ main{
     overflow-y: auto;
 }
 
+.menù{
+    background-color: rgb(223, 215, 203);
+    height: 10%;
+    margin: 5px;
+}
+
+.titolo{
+    color: white;
+}
+
+.card{
+    /* width: 50px; */
+    display: flex;
+    align-items: flex-end;
+}
+
+.cards{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards li{
+    flex-basis:25%;
+}
+
+/* .cards2 li{
+    flex-basis:50%;
+} */
+
+
 
         /* FOOTER */
 
@@ -63,5 +109,35 @@ main{
 footer{
     background-color: rgb(204, 22, 71);
     height: 15vh;
+    display: flex;
+    justify-content: space-between;
 } 
+
+
+.icon-left{
+    height: 100px;
+    padding: 20px;
+}
+
+.menu-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-center{
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+    justify-content: space-between;
+}
+
+.menu-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
  
