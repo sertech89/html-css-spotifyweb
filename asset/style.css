@@ -58,6 +58,22 @@ body{
     display: none;
 }
 
+/* .fontmenu{
+    display: flex;
+    height: 2vh;
+    flex-direction: row;
+    color: gray;
+    font-weight: bold;
+    font-size: 0.6em;
+    padding: 1%;
+    margin-left: 2%;
+} */
+
+
+.fontmenu:hover{
+    border-bottom:1px solid limegreen;
+}
+
 .via{
     display: none;
     white-space: nowrap;
@@ -252,6 +268,8 @@ nav li a{
 }
 
 /* Footer */
+
+
 
 .bgcolorwhite{
     background-color: white;
